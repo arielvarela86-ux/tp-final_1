@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     print("=== PROCESAMIENTO MODULAR ===")
     
-    # Importamos las funciones desde el otro archivo
+    
 from sensores import limpiar_registro_sensor, generar_resumen_sensores
 
 if __name__ == "__main__":
@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     print("=== PROCESAMIENTO MODULAR ===")
     
-    # Limpiar registros usando la función importada
+    
     registros_limpios = [limpiar_registro_sensor(reg) for reg in registros_crudos]
     
     UMBRAL_ALERTA = 35.0
